@@ -10,7 +10,7 @@ body {
   flex-flow: row nowrap;
   justify-content: space-between;
   padding: 1% 15%;
-  background-color: #333;
+  background-color: #377180;
   align-items: center;
 }
 
@@ -27,7 +27,7 @@ body {
 
 .navLink {
   text-decoration: none;
-  color: #ffffff;
+  color: #6EE2FF;
 }
 
 /* HomePage */
@@ -37,7 +37,7 @@ body {
   background: linear-gradient( rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5) ), url('../michael-glass-vflFGBYCiO8-unsplash.jpg');
   background-repeat: no-repeat;
   background-size: cover;
-  color: #fff;
+  color: #6EE2FF;
   display: flex;
   align-items: center;
   justify-content: center;
@@ -57,6 +57,7 @@ body {
   font-family: Montserrat, sans-serif;
   font-weight: 500;
   letter-spacing: -1;
+  color: #6EE2FF;
 }
 
 /* Features Section */
@@ -88,7 +89,7 @@ body {
 }
 
 .promo-img-B {
-  maring-left: 1.5rem;
+  margin-left: 1.5rem;
 }
 
 .promo-text {
