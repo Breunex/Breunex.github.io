@@ -1,0 +1,56 @@
+body {
+  font-family: Montserrat, sans-serif;
+}
+
+/* Header */
+.header {
+  height: 10vh;
+  display: flex;
+  flex-flow: row nowrap;
+  justify-content: space-between;
+  padding: 1% 20%;
+  background-color: #38D2F2;
+  align-items: center;
+}
+
+.logo {
+  height: 100%;
+  width: auto;
+}
+
+.navbar li{
+  display: inline-block;
+  padding-right: 3rem;
+}
+
+.navLink {
+  text-decoration: none;
+  color: #ffffff;
+}
+
+/* HomePage */
+
+.home {
+  height: 90vh;
+  background: linear-gradient( rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5) ), url('./Images/michael-glass-vflFGBYCiO8-unsplash.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
+  color: #fff;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-flow: column nowrap;
+}
+
+.pageHeading {
+  font-size: 500%;
+  font-family: Mansalva, sans-serif;
+  font-weight: 500;
+  margin: 0;
+}
+
+.pageSubHeading {
+  font-size: 1rem;
+  font-family: Montserrat, sans-serif;
+  font-weight: 500;
+}
