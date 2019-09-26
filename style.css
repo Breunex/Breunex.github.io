@@ -1,5 +1,6 @@
 body {
   font-family: Montserrat, sans-serif;
+  margin: 0;
 }
 
 /* Header */
@@ -8,14 +9,15 @@ body {
   display: flex;
   flex-flow: row nowrap;
   justify-content: space-between;
-  padding: 1% 20%;
-  background-color: #38D2F2;
+  padding: 1% 15%;
+  background-color: #333;
   align-items: center;
 }
 
 .logo {
   height: 100%;
   width: auto;
+  border-radius: 50%;
 }
 
 .navbar li{
@@ -31,7 +33,7 @@ body {
 /* HomePage */
 
 .home {
-  height: 90vh;
+  height: 75vh;
   background: linear-gradient( rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5) ), url('./Images/michael-glass-vflFGBYCiO8-unsplash.jpg');
   background-repeat: no-repeat;
   background-size: cover;
@@ -43,14 +45,53 @@ body {
 }
 
 .pageHeading {
-  font-size: 500%;
+  font-size: 600%;
   font-family: Mansalva, sans-serif;
   font-weight: 500;
   margin: 0;
 }
 
 .pageSubHeading {
-  font-size: 1rem;
+  font-size: 1.5rem;
   font-family: Montserrat, sans-serif;
   font-weight: 500;
+  letter-spacing: -1;
+}
+
+/* Features Section */
+
+.skills{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-flow: column nowrap;
+  padding: 3% 15%;
+  color: #333;
+  background-color: #F5F5F5;
+}
+
+.promo-A, .promo-B {
+  height: 300px;
+  display: flex;
+  padding: 2rem;
+}
+
+.promo-img-A, .promo-img-B {
+  height: 100%;
+  width: auto;
+  border-radius: 50%;
+}
+
+.promo-img-A {
+  margin-right: 1.5rem;
+}
+
+.promo-img-B {
+  maring-left: 1.5rem;
+}
+
+.promo-text {
+  display: flex;
+  flex-flow: column nowrap;
+  align-items: flex-start;
 }
