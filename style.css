@@ -10,7 +10,7 @@ body {
   flex-flow: row nowrap;
   justify-content: space-between;
   padding: 1% 15%;
-  background-color: #333;
+  background-color: #377180;
   align-items: center;
 }
 
@@ -57,6 +57,7 @@ body {
   font-family: Montserrat, sans-serif;
   font-weight: 500;
   letter-spacing: -1;
+  color: #6EE2FF;
 }
 
 /* Features Section */
@@ -88,11 +89,40 @@ body {
 }
 
 .promo-img-B {
-  maring-left: 1.5rem;
+  margin-left: 1.5rem;
 }
 
 .promo-text {
   display: flex;
   flex-flow: column nowrap;
   align-items: flex-start;
+}
+/* Contact Section */
+
+.contact {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-flow: column nowrap;
+  padding: 3% 15%;
+  color: #333;
+  background-color: #377180;
+}
+
+.contact-form {
+  display: flex;
+  flex-flow: column nowrap;
+  align-items: flex-start;
+  justify-content: center;
+  align-content: space-between;
+  margin-top: 50px;
+}
+
+input {
+  margin-left: 20px;
+  width: 250px;
+}
+
+input, textarea {
+  margin-bottom: 20px;
 }
