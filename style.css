@@ -10,7 +10,7 @@ body {
   flex-flow: row nowrap;
   justify-content: space-between;
   padding: 1% 15%;
-  background-color: #333;
+  background-color: #377180;
   align-items: center;
 }
 
@@ -37,7 +37,7 @@ body {
   background: linear-gradient( rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5) ), url('./Images/michael-glass-vflFGBYCiO8-unsplash.jpg');
   background-repeat: no-repeat;
   background-size: cover;
-  color: #fff;
+  color: #6EE2FF;
   display: flex;
   align-items: center;
   justify-content: center;
@@ -67,7 +67,7 @@ body {
   flex-flow: column nowrap;
   padding: 3% 15%;
   color: #333;
-  background-color: #F5F5F5;
+  background-color: #BAF1FF;
 }
 
 .promo-A, .promo-B {
@@ -87,7 +87,7 @@ body {
 }
 
 .promo-img-B {
-  maring-left: 1.5rem;
+  margin-left: 1.5rem;
 }
 
 .promo-text {
