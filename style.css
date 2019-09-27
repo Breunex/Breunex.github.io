@@ -210,8 +210,8 @@ body {
 
 .footer {
   padding: 3% 15%;
-  color: #377180;
-  background-color: #BAF1FF;
+  color: #BAF1FF;
+  background-color: #377180;
   display: flex;
   flex-flow: row nowrap;
   align-items: center;
@@ -222,11 +222,11 @@ body {
   font-size: 1.75rem;
   text-decoration: none;
   margin-left: 3%;
-  color: #377180;
+  color: #BAF1FF;
   transition: all .5s;
 }
 
 .footer-icon:hover {
-  color: #58B5CC;
+  color: #6EE2FF;
   transition: all .5s;
 }
