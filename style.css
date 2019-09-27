@@ -197,6 +197,7 @@ body {
   border-radius: 4px;
   font: inherit;
   color: #377180;
+  transition: all .5s;
 }
 
 .submit:hover {
