@@ -97,6 +97,58 @@ body {
   flex-flow: column nowrap;
   align-items: flex-start;
 }
+
+/* Projects Section */
+
+.projects {
+  padding: 3% 15%;
+  color: #333;
+  background-color: #BAF1FF;
+}
+
+.project-gallery {
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.display {
+  margin-top: 5%;
+  width: 30%;
+}
+
+.project-img {
+  width: 100%;
+  height: auto;
+  margin-bottom: 10%;
+}
+
+.btn-container {
+  display: flex;
+  flex-flow: row nowrap;
+  justify-content: space-between;
+  width: 100%;
+}
+
+.project-btn {
+  background-color: transparent;
+  border: 2px solid #5D7980;
+  font-size: 1rem;
+  padding: .5rem;
+  width: 45%;
+  border-radius: 4px;
+  font: inherit;
+  color: #5D7980F;
+}
+
+.project-btn:hover {
+  background-color: #377180;
+  border: 2px solid #BAF1FF;
+  color: #BAF1FF;
+  transition: all .5s;
+}
+
 /* Contact Section */
 
 .contact {
