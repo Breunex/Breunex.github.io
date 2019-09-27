@@ -189,20 +189,20 @@ body {
 }
 
 .submit {
-  background-color: #377180;
-  border: 2px solid #BAF1FF;
+  background-color: #BAF1FF;
+  border: 2px solid #377180;
   font-size: 1rem;
   padding: .5rem;
   width: 8rem;
   border-radius: 4px;
   font: inherit;
-  color: #BAF1FF;
+  color: #377180;
 }
 
 .submit:hover {
-  background-color: #BAF1FF;
-  border: 2px solid #377180;
-  color: #377180;
+  background-color: #377180;
+  border: 2px solid #BAF1FF;
+  color: #BAF1FF;
   transition: all .5s;
 }
 
