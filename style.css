@@ -97,3 +97,59 @@ body {
   flex-flow: column nowrap;
   align-items: flex-start;
 }
+/* Contact Section */
+
+.contact {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-flow: column nowrap;
+  padding: 3% 15%;
+  color: #333;
+  background-color: #377180;
+}
+
+.contact-form {
+  display: flex;
+  flex-flow: column nowrap;
+  align-items: flex-start;
+  justify-content: center;
+  align-content: space-between;
+  margin-top: 50px;
+}
+
+.contact-field, .message {
+  margin-bottom: 3%;
+  padding: 1rem;
+  border-radius: 4px;
+  font-size: 1rem;
+  font: inherit;
+  border: none;
+}
+
+.contact-field {
+  width: 15rem;
+}
+
+.message {
+  width: 40rem;
+  height: 10rem;
+}
+
+.submit {
+  background-color: transparent;
+  border: 2px solid #BAF1FF;
+  font-size: 1rem;
+  padding: .5rem;
+  width: 8rem;
+  border-radius: 4px;
+  font: inherit;
+  color: #BAF1FF;
+}
+
+.submit:hover {
+  background-color: #BAF1FF;
+  border: 2px solid #377180;
+  color: #377180;
+  transition: all .5s;
+}
