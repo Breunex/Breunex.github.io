@@ -139,7 +139,7 @@ body {
   width: 45%;
   border-radius: 4px;
   font: inherit;
-  color: transparent;
+  color: #BAF1FF;
 }
 
 .project-btn:hover {
@@ -190,18 +190,18 @@ body {
 
 .submit {
   background-color: transparent;
-  border: 2px solid #377180;
+  border: 2px solid #BAF1FF;
   font-size: 1rem;
   padding: .5rem;
   width: 8rem;
   border-radius: 4px;
   font: inherit;
-  color: #377180;
+  color: #BAF1FF;
 }
 
 .submit:hover {
-  background-color: #377180;
-  border: 2px solid #BAF1FF;
-  color: #BAF1FF;
+  background-color: #BAF1FF;
+  border: 2px solid #377180;
+  color: #377180;
   transition: all .5s;
 }
