@@ -132,7 +132,7 @@ body {
 }
 
 .project-btn {
-  background-color: transparent;
+  background-color: #377180;
   border: 2px solid #BAF1FF;
   font-size: 1rem;
   padding: .5rem;
@@ -145,7 +145,7 @@ body {
 .project-btn:hover {
   background-color: #BAF1FF;
   border: 2px solid #377180;
-  color: #BAF1FF;
+  color: #377180;
   transition: all .5s;
 }
 
