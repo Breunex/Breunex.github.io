@@ -102,7 +102,6 @@ body {
 
 .projects {
   padding: 3% 15%;
-  color: #333;
   background-color: #377180;
 }
 
@@ -138,7 +137,6 @@ body {
   padding: .5rem;
   width: 45%;
   border-radius: 4px;
-  font: inherit;
   color: #BAF1FF;
   transition: all .5s;
 }
