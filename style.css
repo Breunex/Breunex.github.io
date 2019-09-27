@@ -118,11 +118,37 @@ body {
   margin-top: 50px;
 }
 
-input {
-  margin-left: 20px;
-  width: 250px;
+.contact-field, .message {
+  margin-bottom: 3%;
+  padding: 1rem;
+  border-radius: 4px;
+  font-size: 1rem;
+  font: inherit;
+  border: none;
 }
 
-input, textarea {
-  margin-bottom: 20px;
+.contact-field {
+  width: 15rem;
+}
+
+.message {
+  width: 40rem;
+}
+
+.submit {
+  background-color: transparent;
+  border: 2px solid #BAF1FF;
+  font-size: 1rem;
+  padding: .5rem;
+  width: 8rem;
+  border-radius: 4px;
+  font: inherit;
+  color: #BAF1FF;
+}
+
+.submit:hover {
+  background-color: #BAF1FF;
+  border: 2px solid #377180;
+  color: #377180;
+  transition: all .5s;
 }
